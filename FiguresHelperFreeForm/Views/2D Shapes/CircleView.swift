@@ -66,9 +66,6 @@ struct CircleView: View {
                           text: $providedRadius,
                           prompt: Text("Numeric value greater than 0"))
                 
-                // Output: Radius
-                SliderValueView(value: radius)
-                
                 SectionLabelView(text: "Area", variable: "")
                 
                 // Output: Area
